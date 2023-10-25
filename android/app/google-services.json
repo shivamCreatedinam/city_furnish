@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "760696637670",
+    "project_id": "cityfurnishcom---ga4",
+    "storage_bucket": "cityfurnishcom---ga4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760696637670:android:a79450c41b3edae006d327",
+        "android_client_info": {
+          "package_name": "com.cityfurnish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760696637670-5csijorv9ne3g6rgt3u0p9lj1spgqr31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8oNg-H0qQjH_AI-DEXaO8YRZTwaIuomA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760696637670-5csijorv9ne3g6rgt3u0p9lj1spgqr31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

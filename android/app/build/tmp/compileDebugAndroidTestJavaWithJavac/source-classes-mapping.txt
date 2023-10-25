@@ -1,0 +1,2 @@
+com/cityfurnish/test/BuildConfig.java
+ com.cityfurnish.test.BuildConfig

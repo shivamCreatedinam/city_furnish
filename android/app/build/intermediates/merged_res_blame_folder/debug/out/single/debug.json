@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_ic_notification.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-ldpi/ic_notification.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_notification1.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-xhdpi/ic_notification1.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_notification.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-xxxhdpi/ic_notification.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_notification1.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-mdpi/ic_notification1.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_notification.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-xxhdpi/ic_notification.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_notification1.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-xxhdpi/ic_notification1.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_notification.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-mdpi/ic_notification.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_notification.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-hdpi/ic_notification.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_notification2.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-xxxhdpi/ic_notification2.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_ic_notification1.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-ldpi/ic_notification1.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_notification.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-xhdpi/ic_notification.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]

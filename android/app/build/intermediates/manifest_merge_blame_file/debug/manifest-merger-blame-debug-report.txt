@@ -1,0 +1,842 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cityfurnish"
+4    android:allowBackup="false"
+5    android:versionCode="50"
+6    android:versionName="6.8" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+10        android:targetSdkVersion="31" />
+11
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/debug/AndroidManifest.xml:7:5-77
+12-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/debug/AndroidManifest.xml:7:22-75
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:5:5-67
+13-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:5:22-64
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:6:5-65
+14-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:6:22-62
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:7:5-81
+15-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:8:5-80
+16-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:8:22-77
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:10:5-66
+17-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:10:22-63
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:11:5-80
+18-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:12:5-79
+19-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:12:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:13:5-81
+20-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:13:22-78
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+21-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+22-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->[:react-native-community_netinfo] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-76
+23-->[:react-native-community_netinfo] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-73
+24
+25    <queries>
+25-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:10:5-39:15
+26        <intent>
+26-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:11:9-17:18
+27            <action android:name="android.intent.action.VIEW" />
+27-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:58:17-68
+27-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:58:25-66
+28
+29            <data
+29-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:17-47
+30                android:mimeType="*/*"
+31                android:scheme="*" />
+31-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:23-44
+32        </intent>
+33        <intent>
+33-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:18:9-27:18
+34            <action android:name="android.intent.action.VIEW" />
+34-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:58:17-68
+34-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:58:25-66
+35
+36            <category android:name="android.intent.category.BROWSABLE" />
+36-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:61:17-78
+36-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:61:27-75
+37
+38            <data
+38-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:17-47
+39                android:host="pay"
+40                android:mimeType="*/*"
+41                android:scheme="upi" />
+41-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:23-44
+42        </intent>
+43        <intent>
+43-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:28:9-30:18
+44            <action android:name="android.intent.action.MAIN" />
+44-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:52:17-69
+44-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:52:25-66
+45        </intent>
+46        <intent>
+46-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:31:9-35:18
+47            <action android:name="android.intent.action.SEND" />
+47-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:32:13-65
+47-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:32:21-62
+48
+49            <data android:mimeType="*/*" />
+49-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:17-47
+50        </intent>
+51        <intent>
+51-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:36:9-38:18
+52            <action android:name="rzp.device_token.share" />
+52-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:37:13-61
+52-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:37:21-58
+53        </intent>
+54    </queries>
+55
+56    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+56-->[com.google.firebase:firebase-messaging:23.1.2] /Users/apple/.gradle/caches/transforms-3/bdad958a1f5011e325180086af20a048/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
+56-->[com.google.firebase:firebase-messaging:23.1.2] /Users/apple/.gradle/caches/transforms-3/bdad958a1f5011e325180086af20a048/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:22-74
+57    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+57-->[com.google.firebase:firebase-messaging:23.1.2] /Users/apple/.gradle/caches/transforms-3/bdad958a1f5011e325180086af20a048/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
+57-->[com.google.firebase:firebase-messaging:23.1.2] /Users/apple/.gradle/caches/transforms-3/bdad958a1f5011e325180086af20a048/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:22-79
+58    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- for android -->
+58-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/apple/.gradle/caches/transforms-3/c9672787911a47f34e591f31eaadf567/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:5-79
+58-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/apple/.gradle/caches/transforms-3/c9672787911a47f34e591f31eaadf567/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:22-76
+59    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+60    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+61    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+62    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+63    <!-- for Samsung -->
+64    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+64-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+64-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+65    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+65-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+65-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+66    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+66-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+66-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+67    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+67-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+67-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+68    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+68-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+68-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+69    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+69-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+69-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+70    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+70-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+70-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+71    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+71-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+71-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+72    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+72-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+72-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+73    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+73-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+73-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+74    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+74-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+74-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+75    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+75-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+75-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+76    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+76-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+76-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+77    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+77-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+77-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+78    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+78-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+78-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+79    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+79-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+79-->[me.leolin:ShortcutBadger:1.1.22] /Users/apple/.gradle/caches/transforms-3/447efda048bb6cc5368c131106102b35/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+80
+81    <uses-feature
+81-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-3/084962ef985eb46fa1ca78c377922620/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+82        android:glEsVersion="0x00020000"
+82-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-3/084962ef985eb46fa1ca78c377922620/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+83        android:required="true" />
+83-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-3/084962ef985eb46fa1ca78c377922620/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+84
+85    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+85-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/apple/.gradle/caches/transforms-3/df3f7b15fdbf1e19e8654aabc55219e8/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:5-110
+85-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/apple/.gradle/caches/transforms-3/df3f7b15fdbf1e19e8654aabc55219e8/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:22-107
+86
+87    <application
+87-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:30:5-117:19
+88        android:name="com.cityfurnish.MainApplication"
+88-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:31:9-40
+89        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+89-->[androidx.core:core:1.3.2] /Users/apple/.gradle/caches/transforms-3/4f89d2876d7ca739e50358eff364997f/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+90        android:debuggable="true"
+91        android:icon="@mipmap/ic_launcher"
+91-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:32:9-43
+92        android:label="@string/app_name"
+92-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:33:9-41
+93        android:largeHeap="true"
+93-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:38:9-33
+94        android:requestLegacyExternalStorage="true"
+94-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:36:9-52
+95        android:roundIcon="@mipmap/ic_launcher_round"
+95-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:34:9-54
+96        android:supportsRtl="true"
+96-->[com.facebook.android:facebook-android-sdk:13.2.0] /Users/apple/.gradle/caches/transforms-3/93b25c7e7acff647cd6d6d349494ddf6/transformed/jetified-facebook-android-sdk-13.2.0/AndroidManifest.xml:28:18-44
+97        android:theme="@style/AppTheme"
+97-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:35:9-40
+98        android:usesCleartextTraffic="true" >
+98-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:37:9-44
+99        <activity
+99-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:42:9-76:20
+100            android:name="com.cityfurnish.MainActivity"
+100-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:43:13-41
+101            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+101-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:44:13-83
+102            android:exported="true"
+102-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:49:13-36
+103            android:label="@string/app_name"
+103-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:45:13-45
+104            android:launchMode="singleTask"
+104-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:46:13-44
+105            android:screenOrientation="portrait"
+105-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:47:13-49
+106            android:windowSoftInputMode="adjustResize" >
+106-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:48:13-55
+107            <intent-filter android:autoVerify="true" >
+107-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:51:13-55:29
+107-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:51:28-53
+108                <action android:name="android.intent.action.MAIN" />
+108-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:52:17-69
+108-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:52:25-66
+109
+110                <category android:name="android.intent.category.LAUNCHER" />
+110-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:53:17-77
+110-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:53:27-74
+111
+112                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+112-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:54:17-82
+112-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:54:25-79
+113            </intent-filter>
+114            <intent-filter android:autoVerify="true" >
+114-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:57:13-67:29
+114-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:57:28-53
+115                <action android:name="android.intent.action.VIEW" />
+115-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:58:17-68
+115-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:58:25-66
+116
+117                <category android:name="android.intent.category.DEFAULT" />
+117-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:60:17-76
+117-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:60:27-73
+118                <category android:name="android.intent.category.BROWSABLE" />
+118-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:61:17-78
+118-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:61:27-75
+119
+120                <data android:scheme="http" />
+120-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:17-47
+120-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:23-44
+121                <data android:scheme="https" />
+121-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:17-47
+121-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:23-44
+122                <data android:host="cityfurnish.com" />
+122-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:17-47
+123                <data android:host="www.cityfurnish.com" />
+123-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:17-47
+124            </intent-filter>
+125            <intent-filter android:autoVerify="true" >
+125-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:68:13-74:29
+125-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:68:28-53
+126                <action android:name="android.intent.action.VIEW" />
+126-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:58:17-68
+126-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:58:25-66
+127
+128                <category android:name="android.intent.category.DEFAULT" />
+128-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:60:17-76
+128-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:60:27-73
+129                <category android:name="android.intent.category.BROWSABLE" />
+129-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:61:17-78
+129-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:61:27-75
+130
+131                <data android:scheme="cityfurnishotpless" />
+131-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:17-47
+131-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:23-44
+132                <data android:host="otpless" />
+132-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:17-47
+133            </intent-filter>
+134        </activity>
+135        <activity
+135-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:77:9-111
+136            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+136-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:77:19-83
+137            android:exported="false" />
+137-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:77:84-108
+138
+139        <meta-data
+139-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:79:9-80:36
+140            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+140-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:79:21-97
+141            android:value="false" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+141-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:80:13-34
+142        <meta-data
+142-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:82:9-83:46
+143            android:name="com.dieam.reactnativepushnotification.notification_color"
+143-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:82:21-92
+144            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+144-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:83:13-44
+145        <receiver
+145-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:85:9-133
+146            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions"
+146-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:85:19-105
+147            android:exported="false" />
+147-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:85:106-130
+148        <receiver
+148-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:86:9-135
+149            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher"
+149-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:86:19-107
+150            android:exported="false" />
+150-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:86:108-132
+151        <receiver
+151-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:87:9-93:20
+152            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+152-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:87:19-115
+153            android:exported="false" >
+153-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:87:116-140
+154            <intent-filter>
+154-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:88:13-92:29
+155                <action android:name="android.intent.action.BOOT_COMPLETED" />
+155-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:89:17-79
+155-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:89:25-76
+156                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+156-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:90:17-82
+156-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:90:25-79
+157                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+157-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:91:17-81
+157-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:91:25-79
+158            </intent-filter>
+159        </receiver>
+160
+161        <service
+161-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:95:9-101:19
+162            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+162-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:96:13-107
+163            android:exported="false" >
+163-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:97:13-37
+164            <intent-filter>
+164-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:98:13-100:29
+165                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+165-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:99:17-78
+165-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:99:25-75
+166            </intent-filter>
+167        </service>
+168
+169        <meta-data
+169-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:102:9-107
+170            android:name="com.facebook.sdk.ApplicationId"
+170-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:102:20-65
+171            android:value="@string/facebook_app_id" />
+171-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:102:66-105
+172        <meta-data
+172-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:103:9-111
+173            android:name="com.facebook.sdk.ClientToken"
+173-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:103:20-63
+174            android:value="@string/facebook_client_token" />
+174-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:103:64-109
+175
+176        <provider
+177            android:name="com.vinzscam.reactnativefileviewer.FileProvider"
+178            android:authorities="com.cityfurnish.provider"
+179            android:exported="false"
+180            android:grantUriPermissions="true" >
+181            <meta-data
+182                android:name="android.support.FILE_PROVIDER_PATHS"
+183                android:resource="@xml/file_viewer_provider_paths" />
+184        </provider>
+185
+186        <meta-data
+186-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:114:9-116:58
+187            android:name="com.google.firebase.messaging.default_notification_icon"
+187-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:114:20-90
+188            android:resource="@mipmap/ic_notification" />
+188-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:116:13-55
+189        <meta-data
+189-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:36
+190            android:name="firebase_analytics_collection_enabled"
+190-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
+191            android:value="true" />
+191-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-33
+192        <meta-data
+192-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-19:37
+193            android:name="firebase_analytics_collection_deactivated"
+193-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-69
+194            android:value="false" />
+194-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-34
+195        <meta-data
+195-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-22:36
+196            android:name="google_analytics_adid_collection_enabled"
+196-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-68
+197            android:value="true" />
+197-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-33
+198        <meta-data
+198-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-25:36
+199            android:name="google_analytics_ssaid_collection_enabled"
+199-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-69
+200            android:value="true" />
+200-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-33
+201        <meta-data
+201-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-28:36
+202            android:name="google_analytics_default_allow_ad_personalization_signals"
+202-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-85
+203            android:value="true" />
+203-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-33
+204        <meta-data
+204-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-31:36
+205            android:name="google_analytics_automatic_screen_reporting_enabled"
+205-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-79
+206            android:value="true" />
+206-->[:react-native-firebase_analytics] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-33
+207
+208        <service
+208-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+209            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+209-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-103
+210            android:exported="false" />
+210-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+211        <service
+211-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:19
+212            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+212-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-95
+213            android:exported="false" >
+213-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+214            <intent-filter>
+214-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:98:13-100:29
+215                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+215-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:99:17-78
+215-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:99:25-75
+216            </intent-filter>
+217        </service>
+218
+219        <receiver
+219-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-32:20
+220            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+220-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-96
+221            android:exported="true"
+221-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+222            android:permission="com.google.android.c2dm.permission.SEND" >
+222-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-73
+223            <intent-filter>
+223-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+224                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+224-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+224-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+225            </intent-filter>
+226        </receiver>
+227
+228        <meta-data
+228-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-36:36
+229            android:name="firebase_messaging_auto_init_enabled"
+229-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-64
+230            android:value="true" />
+230-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-33
+231        <meta-data
+231-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-39:32
+232            android:name="com.google.firebase.messaging.default_notification_channel_id"
+232-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-89
+233            android:value="" />
+233-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-29
+234        <meta-data
+234-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-42:47
+235            android:name="com.google.firebase.messaging.default_notification_color"
+235-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-84
+236            android:resource="@color/white" />
+236-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44
+237        <meta-data
+237-->[:react-native-firebase_app] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+238            android:name="app_data_collection_default_enabled"
+238-->[:react-native-firebase_app] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+239            android:value="true" />
+239-->[:react-native-firebase_app] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+240
+241        <service
+241-->[:react-native-firebase_app] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+242            android:name="com.google.firebase.components.ComponentDiscoveryService"
+242-->[:react-native-firebase_app] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+243            android:directBootAware="true"
+243-->[:react-native-firebase_app] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+244            android:exported="false" >
+244-->[:react-native-firebase_app] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+245            <meta-data
+245-->[:react-native-firebase_app] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+246                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+246-->[:react-native-firebase_app] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+247                android:value="com.google.firebase.components.ComponentRegistrar" />
+247-->[:react-native-firebase_app] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+248            <meta-data
+248-->[com.google.firebase:firebase-messaging:23.1.2] /Users/apple/.gradle/caches/transforms-3/bdad958a1f5011e325180086af20a048/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+249                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+249-->[com.google.firebase:firebase-messaging:23.1.2] /Users/apple/.gradle/caches/transforms-3/bdad958a1f5011e325180086af20a048/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+250                android:value="com.google.firebase.components.ComponentRegistrar" />
+250-->[com.google.firebase:firebase-messaging:23.1.2] /Users/apple/.gradle/caches/transforms-3/bdad958a1f5011e325180086af20a048/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+251            <meta-data
+251-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/apple/.gradle/caches/transforms-3/80273399e938b375ab5a106c539b1574/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+252                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+252-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/apple/.gradle/caches/transforms-3/80273399e938b375ab5a106c539b1574/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+253                android:value="com.google.firebase.components.ComponentRegistrar" />
+253-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/apple/.gradle/caches/transforms-3/80273399e938b375ab5a106c539b1574/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+254            <meta-data
+254-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/apple/.gradle/caches/transforms-3/c9672787911a47f34e591f31eaadf567/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:31:13-33:85
+255                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+255-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/apple/.gradle/caches/transforms-3/c9672787911a47f34e591f31eaadf567/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:32:17-139
+256                android:value="com.google.firebase.components.ComponentRegistrar" />
+256-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/apple/.gradle/caches/transforms-3/c9672787911a47f34e591f31eaadf567/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:33:17-82
+257            <meta-data
+257-->[com.google.firebase:firebase-installations:17.1.3] /Users/apple/.gradle/caches/transforms-3/bc44f9dcc26ec63984da0fe58d0c9aa7/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+258                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+258-->[com.google.firebase:firebase-installations:17.1.3] /Users/apple/.gradle/caches/transforms-3/bc44f9dcc26ec63984da0fe58d0c9aa7/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+259                android:value="com.google.firebase.components.ComponentRegistrar" />
+259-->[com.google.firebase:firebase-installations:17.1.3] /Users/apple/.gradle/caches/transforms-3/bc44f9dcc26ec63984da0fe58d0c9aa7/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+260        </service>
+261
+262        <provider
+262-->[:react-native-firebase_app] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+263            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+263-->[:react-native-firebase_app] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+264            android:authorities="com.cityfurnish.reactnativefirebaseappinitprovider"
+264-->[:react-native-firebase_app] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+265            android:exported="false"
+265-->[:react-native-firebase_app] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+266            android:initOrder="99" />
+266-->[:react-native-firebase_app] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+267
+268        <activity
+268-->[:react-native-razorpay] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:86
+269            android:name="com.razorpay.CheckoutActivity"
+269-->[:react-native-razorpay] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-57
+270            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+270-->[:react-native-razorpay] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-83
+271            android:exported="false"
+271-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:54:13-37
+272            android:theme="@style/CheckoutTheme" >
+272-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:55:13-49
+273            <intent-filter>
+273-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:56:13-58:29
+274                <action android:name="android.intent.action.MAIN" />
+274-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:52:17-69
+274-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:52:25-66
+275            </intent-filter>
+276        </activity>
+277
+278        <receiver
+278-->[:react-native-device-info] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-20:20
+279            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+279-->[:react-native-device-info] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-70
+280            android:enabled="true"
+280-->[:react-native-device-info] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-35
+281            android:exported="true"
+281-->[:react-native-device-info] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-36
+282            android:permission="android.permission.INSTALL_PACKAGES" >
+282-->[:react-native-device-info] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-69
+283            <intent-filter>
+283-->[:react-native-device-info] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:29
+284                <action android:name="com.android.vending.INSTALL_REFERRER" />
+284-->[:react-native-device-info] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-79
+284-->[:react-native-device-info] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:25-76
+285            </intent-filter>
+286        </receiver>
+287
+288        <provider
+288-->[:react-native-image-picker] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+289            android:name="com.imagepicker.ImagePickerProvider"
+289-->[:react-native-image-picker] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+290            android:authorities="com.cityfurnish.imagepickerprovider"
+290-->[:react-native-image-picker] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+291            android:exported="false"
+291-->[:react-native-image-picker] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+292            android:grantUriPermissions="true" >
+292-->[:react-native-image-picker] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+293            <meta-data
+294                android:name="android.support.FILE_PROVIDER_PATHS"
+295                android:resource="@xml/imagepicker_provider_paths" />
+296        </provider>
+297        <provider
+297-->[:react-native-webview] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+298            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+298-->[:react-native-webview] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+299            android:authorities="com.cityfurnish.fileprovider"
+299-->[:react-native-webview] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+300            android:exported="false"
+300-->[:react-native-webview] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+301            android:grantUriPermissions="true" >
+301-->[:react-native-webview] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+302            <meta-data
+303                android:name="android.support.FILE_PROVIDER_PATHS"
+304                android:resource="@xml/file_provider_paths" />
+305        </provider>
+306
+307        <receiver
+307-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:42:9-49:20
+308            android:name="com.razorpay.RzpTokenReceiver"
+308-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:43:13-57
+309            android:exported="true" >
+309-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:44:13-36
+310            <intent-filter>
+310-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:46:13-48:29
+311                <action android:name="rzp.device_token.share" />
+311-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:37:13-61
+311-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:37:21-58
+312            </intent-filter>
+313        </receiver>
+314
+315        <meta-data
+315-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:61:9-63:58
+316            android:name="com.razorpay.plugin.googlepay_all"
+316-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:62:13-61
+317            android:value="com.razorpay.RzpGpayMerged" />
+317-->[com.razorpay:checkout:1.6.35] /Users/apple/.gradle/caches/transforms-3/bfd5a5235290994e53b3f9d2898333d5/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:63:13-55
+318
+319        <activity
+319-->[com.google.android.gms:play-services-auth:20.7.0] /Users/apple/.gradle/caches/transforms-3/cddc0206f6e327599ab26334d06719e8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+320            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+320-->[com.google.android.gms:play-services-auth:20.7.0] /Users/apple/.gradle/caches/transforms-3/cddc0206f6e327599ab26334d06719e8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+321            android:excludeFromRecents="true"
+321-->[com.google.android.gms:play-services-auth:20.7.0] /Users/apple/.gradle/caches/transforms-3/cddc0206f6e327599ab26334d06719e8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+322            android:exported="false"
+322-->[com.google.android.gms:play-services-auth:20.7.0] /Users/apple/.gradle/caches/transforms-3/cddc0206f6e327599ab26334d06719e8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+323            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+323-->[com.google.android.gms:play-services-auth:20.7.0] /Users/apple/.gradle/caches/transforms-3/cddc0206f6e327599ab26334d06719e8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+324        <!--
+325            Service handling Google Sign-In user revocation. For apps that do not integrate with
+326            Google Sign-In, this service will never be started.
+327        -->
+328        <service
+328-->[com.google.android.gms:play-services-auth:20.7.0] /Users/apple/.gradle/caches/transforms-3/cddc0206f6e327599ab26334d06719e8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+329            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+329-->[com.google.android.gms:play-services-auth:20.7.0] /Users/apple/.gradle/caches/transforms-3/cddc0206f6e327599ab26334d06719e8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+330            android:exported="true"
+330-->[com.google.android.gms:play-services-auth:20.7.0] /Users/apple/.gradle/caches/transforms-3/cddc0206f6e327599ab26334d06719e8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+331            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+331-->[com.google.android.gms:play-services-auth:20.7.0] /Users/apple/.gradle/caches/transforms-3/cddc0206f6e327599ab26334d06719e8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+332            android:visibleToInstantApps="true" />
+332-->[com.google.android.gms:play-services-auth:20.7.0] /Users/apple/.gradle/caches/transforms-3/cddc0206f6e327599ab26334d06719e8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+333
+334        <receiver
+334-->[com.google.firebase:firebase-messaging:23.1.2] /Users/apple/.gradle/caches/transforms-3/bdad958a1f5011e325180086af20a048/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+335            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+335-->[com.google.firebase:firebase-messaging:23.1.2] /Users/apple/.gradle/caches/transforms-3/bdad958a1f5011e325180086af20a048/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+336            android:exported="true"
+336-->[com.google.firebase:firebase-messaging:23.1.2] /Users/apple/.gradle/caches/transforms-3/bdad958a1f5011e325180086af20a048/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+337            android:permission="com.google.android.c2dm.permission.SEND" >
+337-->[com.google.firebase:firebase-messaging:23.1.2] /Users/apple/.gradle/caches/transforms-3/bdad958a1f5011e325180086af20a048/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+338            <intent-filter>
+338-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+339                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+339-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+339-->[:react-native-firebase_messaging] /Users/apple/Documents/MyApps/Cityfurnish_RN_App/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+340            </intent-filter>
+341        </receiver>
+342        <!--
+343             FirebaseMessagingService performs security checks at runtime,
+344             but set to not exported to explicitly avoid allowing another app to call it.
+345        -->
+346        <service
+346-->[com.google.firebase:firebase-messaging:23.1.2] /Users/apple/.gradle/caches/transforms-3/bdad958a1f5011e325180086af20a048/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+347            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+347-->[com.google.firebase:firebase-messaging:23.1.2] /Users/apple/.gradle/caches/transforms-3/bdad958a1f5011e325180086af20a048/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+348            android:directBootAware="true"
+348-->[com.google.firebase:firebase-messaging:23.1.2] /Users/apple/.gradle/caches/transforms-3/bdad958a1f5011e325180086af20a048/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+349            android:exported="false" >
+349-->[com.google.firebase:firebase-messaging:23.1.2] /Users/apple/.gradle/caches/transforms-3/bdad958a1f5011e325180086af20a048/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+350            <intent-filter android:priority="-500" >
+350-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:98:13-100:29
+351                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+351-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:99:17-78
+351-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:99:25-75
+352            </intent-filter>
+353        </service>
+354        <service
+354-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/apple/.gradle/caches/transforms-3/e935c07f62b9fa40bc7b9c1181e2882e/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+355            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+355-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/apple/.gradle/caches/transforms-3/e935c07f62b9fa40bc7b9c1181e2882e/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+356            android:exported="false" >
+356-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/apple/.gradle/caches/transforms-3/e935c07f62b9fa40bc7b9c1181e2882e/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+357            <meta-data
+357-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/apple/.gradle/caches/transforms-3/e935c07f62b9fa40bc7b9c1181e2882e/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+358                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+358-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/apple/.gradle/caches/transforms-3/e935c07f62b9fa40bc7b9c1181e2882e/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+359                android:value="cct" />
+359-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/apple/.gradle/caches/transforms-3/e935c07f62b9fa40bc7b9c1181e2882e/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+360        </service>
+361        <service
+361-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/apple/.gradle/caches/transforms-3/f1633e063690f5ef56ab7873ef74d55a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+362            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+362-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/apple/.gradle/caches/transforms-3/f1633e063690f5ef56ab7873ef74d55a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+363            android:exported="false"
+363-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/apple/.gradle/caches/transforms-3/f1633e063690f5ef56ab7873ef74d55a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+364            android:permission="android.permission.BIND_JOB_SERVICE" >
+364-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/apple/.gradle/caches/transforms-3/f1633e063690f5ef56ab7873ef74d55a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+365        </service>
+366
+367        <receiver
+367-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/apple/.gradle/caches/transforms-3/f1633e063690f5ef56ab7873ef74d55a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+368            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+368-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/apple/.gradle/caches/transforms-3/f1633e063690f5ef56ab7873ef74d55a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+369            android:exported="false" />
+369-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/apple/.gradle/caches/transforms-3/f1633e063690f5ef56ab7873ef74d55a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+370
+371        <provider
+371-->[com.google.firebase:firebase-common:20.3.2] /Users/apple/.gradle/caches/transforms-3/b9003726c8e33dce7be366bff0b22999/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+372            android:name="com.google.firebase.provider.FirebaseInitProvider"
+372-->[com.google.firebase:firebase-common:20.3.2] /Users/apple/.gradle/caches/transforms-3/b9003726c8e33dce7be366bff0b22999/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+373            android:authorities="com.cityfurnish.firebaseinitprovider"
+373-->[com.google.firebase:firebase-common:20.3.2] /Users/apple/.gradle/caches/transforms-3/b9003726c8e33dce7be366bff0b22999/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+374            android:directBootAware="true"
+374-->[com.google.firebase:firebase-common:20.3.2] /Users/apple/.gradle/caches/transforms-3/b9003726c8e33dce7be366bff0b22999/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+375            android:exported="false"
+375-->[com.google.firebase:firebase-common:20.3.2] /Users/apple/.gradle/caches/transforms-3/b9003726c8e33dce7be366bff0b22999/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+376            android:initOrder="100" />
+376-->[com.google.firebase:firebase-common:20.3.2] /Users/apple/.gradle/caches/transforms-3/b9003726c8e33dce7be366bff0b22999/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+377
+378        <activity
+378-->[com.facebook.android:facebook-common:13.2.0] /Users/apple/.gradle/caches/transforms-3/fed6082606a1826f6d5c2a1c3d80e767/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:30:9-33:66
+379            android:name="com.facebook.FacebookActivity"
+379-->[com.facebook.android:facebook-common:13.2.0] /Users/apple/.gradle/caches/transforms-3/fed6082606a1826f6d5c2a1c3d80e767/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:31:13-57
+380            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+380-->[com.facebook.android:facebook-common:13.2.0] /Users/apple/.gradle/caches/transforms-3/fed6082606a1826f6d5c2a1c3d80e767/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:32:13-96
+381            android:theme="@style/com_facebook_activity_theme" />
+381-->[com.facebook.android:facebook-common:13.2.0] /Users/apple/.gradle/caches/transforms-3/fed6082606a1826f6d5c2a1c3d80e767/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:33:13-63
+382        <activity android:name="com.facebook.CustomTabMainActivity" />
+382-->[com.facebook.android:facebook-common:13.2.0] /Users/apple/.gradle/caches/transforms-3/fed6082606a1826f6d5c2a1c3d80e767/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:34:9-71
+382-->[com.facebook.android:facebook-common:13.2.0] /Users/apple/.gradle/caches/transforms-3/fed6082606a1826f6d5c2a1c3d80e767/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:34:19-68
+383        <activity
+383-->[com.facebook.android:facebook-common:13.2.0] /Users/apple/.gradle/caches/transforms-3/fed6082606a1826f6d5c2a1c3d80e767/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:35:9-49:20
+384            android:name="com.facebook.CustomTabActivity"
+384-->[com.facebook.android:facebook-common:13.2.0] /Users/apple/.gradle/caches/transforms-3/fed6082606a1826f6d5c2a1c3d80e767/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:36:13-58
+385            android:exported="true" >
+385-->[com.facebook.android:facebook-common:13.2.0] /Users/apple/.gradle/caches/transforms-3/fed6082606a1826f6d5c2a1c3d80e767/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:37:13-36
+386            <intent-filter>
+386-->[com.facebook.android:facebook-common:13.2.0] /Users/apple/.gradle/caches/transforms-3/fed6082606a1826f6d5c2a1c3d80e767/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:39:13-48:29
+387                <action android:name="android.intent.action.VIEW" />
+387-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:58:17-68
+387-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:58:25-66
+388
+389                <category android:name="android.intent.category.DEFAULT" />
+389-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:60:17-76
+389-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:60:27-73
+390                <category android:name="android.intent.category.BROWSABLE" />
+390-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:61:17-78
+390-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:61:27-75
+391
+392                <data
+392-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:17-47
+393                    android:host="cct.com.cityfurnish"
+394                    android:scheme="fbconnect" />
+394-->/Users/apple/Documents/MyApps/Cityfurnish_RN_App/android/app/src/main/AndroidManifest.xml:63:23-44
+395            </intent-filter>
+396        </activity> <!-- Needs to be explicitly declared on P+ -->
+397        <uses-library
+397-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-3/084962ef985eb46fa1ca78c377922620/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+398            android:name="org.apache.http.legacy"
+398-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-3/084962ef985eb46fa1ca78c377922620/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+399            android:required="false" />
+399-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-3/084962ef985eb46fa1ca78c377922620/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+400
+401        <activity
+401-->[com.google.android.gms:play-services-base:18.0.1] /Users/apple/.gradle/caches/transforms-3/33371ad0cc762c8dfb7a22739b80494c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+402            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+402-->[com.google.android.gms:play-services-base:18.0.1] /Users/apple/.gradle/caches/transforms-3/33371ad0cc762c8dfb7a22739b80494c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+403            android:exported="false"
+403-->[com.google.android.gms:play-services-base:18.0.1] /Users/apple/.gradle/caches/transforms-3/33371ad0cc762c8dfb7a22739b80494c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+404            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+404-->[com.google.android.gms:play-services-base:18.0.1] /Users/apple/.gradle/caches/transforms-3/33371ad0cc762c8dfb7a22739b80494c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+405
+406        <receiver
+406-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/apple/.gradle/caches/transforms-3/df3f7b15fdbf1e19e8654aabc55219e8/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:29:9-33:20
+407            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+407-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/apple/.gradle/caches/transforms-3/df3f7b15fdbf1e19e8654aabc55219e8/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:30:13-85
+408            android:enabled="true"
+408-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/apple/.gradle/caches/transforms-3/df3f7b15fdbf1e19e8654aabc55219e8/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:31:13-35
+409            android:exported="false" >
+409-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/apple/.gradle/caches/transforms-3/df3f7b15fdbf1e19e8654aabc55219e8/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:32:13-37
+410        </receiver>
+411
+412        <service
+412-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/apple/.gradle/caches/transforms-3/df3f7b15fdbf1e19e8654aabc55219e8/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:35:9-38:40
+413            android:name="com.google.android.gms.measurement.AppMeasurementService"
+413-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/apple/.gradle/caches/transforms-3/df3f7b15fdbf1e19e8654aabc55219e8/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:36:13-84
+414            android:enabled="true"
+414-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/apple/.gradle/caches/transforms-3/df3f7b15fdbf1e19e8654aabc55219e8/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:37:13-35
+415            android:exported="false" />
+415-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/apple/.gradle/caches/transforms-3/df3f7b15fdbf1e19e8654aabc55219e8/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:38:13-37
+416        <service
+416-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/apple/.gradle/caches/transforms-3/df3f7b15fdbf1e19e8654aabc55219e8/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:39:9-43:72
+417            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+417-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/apple/.gradle/caches/transforms-3/df3f7b15fdbf1e19e8654aabc55219e8/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:40:13-87
+418            android:enabled="true"
+418-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/apple/.gradle/caches/transforms-3/df3f7b15fdbf1e19e8654aabc55219e8/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:41:13-35
+419            android:exported="false"
+419-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/apple/.gradle/caches/transforms-3/df3f7b15fdbf1e19e8654aabc55219e8/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:42:13-37
+420            android:permission="android.permission.BIND_JOB_SERVICE" />
+420-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/apple/.gradle/caches/transforms-3/df3f7b15fdbf1e19e8654aabc55219e8/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:43:13-69
+421
+422        <meta-data
+422-->[com.google.android.gms:play-services-basement:18.2.0] /Users/apple/.gradle/caches/transforms-3/4128255814ac293db29e24b09330f716/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+423            android:name="com.google.android.gms.version"
+423-->[com.google.android.gms:play-services-basement:18.2.0] /Users/apple/.gradle/caches/transforms-3/4128255814ac293db29e24b09330f716/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+424            android:value="@integer/google_play_services_version" />
+424-->[com.google.android.gms:play-services-basement:18.2.0] /Users/apple/.gradle/caches/transforms-3/4128255814ac293db29e24b09330f716/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+425        <!--
+426         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+427         with the application context. This config is merged in with the host app's manifest,
+428         but there can only be one provider with the same authority activated at any given
+429         point; so if the end user has two or more different apps that use Facebook SDK, only the
+430         first one will be able to use the provider. To work around this problem, we use the
+431         following placeholder in the authority to identify each host application as if it was
+432         a completely different provider.
+433        -->
+434        <provider
+434-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:41:9-44:40
+435            android:name="com.facebook.internal.FacebookInitProvider"
+435-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:42:13-70
+436            android:authorities="com.cityfurnish.FacebookInitProvider"
+436-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:43:13-72
+437            android:exported="false" />
+437-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:44:13-37
+438
+439        <receiver
+439-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:46:9-52:20
+440            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+440-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:47:13-86
+441            android:exported="false" >
+441-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:48:13-37
+442            <intent-filter>
+442-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:49:13-51:29
+443                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+443-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:50:17-95
+443-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:50:25-92
+444            </intent-filter>
+445        </receiver>
+446        <receiver
+446-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:53:9-59:20
+447            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+447-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:54:13-118
+448            android:exported="false" >
+448-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:55:13-37
+449            <intent-filter>
+449-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:56:13-58:29
+450                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+450-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:57:17-103
+450-->[com.facebook.android:facebook-core:13.2.0] /Users/apple/.gradle/caches/transforms-3/a4803053925149c93f214b87909bc5be/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:57:25-100
+451            </intent-filter>
+452        </receiver>
+453    </application>
+454
+455</manifest>

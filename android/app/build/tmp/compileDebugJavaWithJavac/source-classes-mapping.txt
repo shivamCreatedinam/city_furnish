@@ -1,0 +1,9 @@
+com/cityfurnish/MainApplication.java
+ com.cityfurnish.MainApplication
+ com.cityfurnish.MainApplication$1
+com/cityfurnish/BuildConfig.java
+ com.cityfurnish.BuildConfig
+com/cityfurnish/MainActivity.java
+ com.cityfurnish.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

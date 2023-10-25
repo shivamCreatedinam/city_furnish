@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">760696637670-5csijorv9ne3g6rgt3u0p9lj1spgqr31.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">760696637670</string>
+    <string name="google_api_key" translatable="false">AIzaSyC8oNg-H0qQjH_AI-DEXaO8YRZTwaIuomA</string>
+    <string name="google_app_id" translatable="false">1:760696637670:android:a79450c41b3edae006d327</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC8oNg-H0qQjH_AI-DEXaO8YRZTwaIuomA</string>
+    <string name="google_storage_bucket" translatable="false">cityfurnishcom---ga4.appspot.com</string>
+    <string name="project_id" translatable="false">cityfurnishcom---ga4</string>
+</resources>
